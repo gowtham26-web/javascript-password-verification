@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password verification</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- style css -->
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" class="forms">
+            <h1>Password verification</h1>
+            <div class="details">
+                <label for="">Name</label>
+                <input type="text" name="Name" id="name" placeholder="Enter your name">
+                <p id="nameError" class="error"></p>
+
+                <label for="">Password</label>
+                <input type="text" name="password" id="password" placeholder="Enter your password">
+                <p id="passError"></p>
+
+                <label for="">Confirm password</label>
+                <input type="text" id="confirmpassword" name="confirmpassword" placeholder="Confirm your password">
+                <p class="confirmError"></p>
+
+                <input type="submit" class="button">
+            </div>
+
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
